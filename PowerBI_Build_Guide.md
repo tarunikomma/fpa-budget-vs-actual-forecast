@@ -2,13 +2,13 @@
 
 Builds a 4-page Power BI report on top of `FPA_Budget_vs_Actual_Forecast_Model.xlsx`. Allow about 1.5 to 2 hours. Power BI Desktop is Windows-only and free.
 
-Files in this folder:
+Supporting files in this repository:
 
 | File | Use |
 |---|---|
 | `measures.dax` | All 44 measures, pasted in one step |
 | `Larkspur_FPA_theme.json` | Report colors that match the Excel dashboard |
-| `csv/` | The same 7 tables as CSV, as a fallback data source |
+| `fact_*.csv`, `dim_*.csv`, `tbl_Commentary.csv` | The same 7 tables as CSV, as a fallback data source |
 
 ## 1. Load the data
 
@@ -130,4 +130,4 @@ These are the values in the workbook as delivered. If you change any assumption 
 
 ## Using the CSV fallback
 
-If the Excel import gives trouble, use **Get data > Folder** or **Text/CSV** on the `csv/` files. Table and column names are identical, so every step above still applies. The CSVs are a snapshot and do not update when the workbook changes.
+If the Excel import gives trouble, use **Get data > Folder** or **Text/CSV** on the seven CSV files. Table and column names are identical, so every step above still applies. The CSVs are a snapshot and do not update when the workbook changes.

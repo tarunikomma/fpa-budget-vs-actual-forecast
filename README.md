@@ -32,10 +32,10 @@ Revenue is ahead of plan but EBITDA is behind: $213K of unfavorable COGS rate ef
 | File | Contents |
 |---|---|
 | `FPA_Budget_vs_Actual_Forecast_Model.xlsx` | The model: Dashboard, BvA, Variance Analysis, Commentary, Forecast, Budget, Actuals, Assumptions, plus 7 `pbi_` tables |
-| `powerbi/PowerBI_Build_Guide.md` | Step-by-step Power BI build: data model, measures, 4 report pages, validation numbers |
-| `powerbi/measures.dax` | 44 DAX measures |
-| `powerbi/Larkspur_FPA_theme.json` | Report theme |
-| `powerbi/csv/` | Fact and dimension tables as CSV |
+| [`PowerBI_Build_Guide.md`](PowerBI_Build_Guide.md) | Step-by-step Power BI build: data model, measures, 4 report pages, validation numbers |
+| `measures.dax` | 44 DAX measures |
+| `Larkspur_FPA_theme.json` | Report theme |
+| `fact_*.csv`, `dim_*.csv`, `tbl_Commentary.csv` | Fact and dimension tables as CSV |
 
 ## Skills demonstrated
 
