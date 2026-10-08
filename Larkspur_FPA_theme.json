@@ -1,0 +1,10 @@
+{
+  "name": "Larkspur FPA",
+  "dataColors": ["#1F5FA8", "#7A8598", "#1F3864", "#2E7D32", "#C62828", "#B26A00"],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#1F3864",
+  "good": "#2E7D32",
+  "neutral": "#B26A00",
+  "bad": "#C62828"
+}

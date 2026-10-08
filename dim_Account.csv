@@ -1,0 +1,15 @@
+AccountKey,Account,Category,CategoryName,CategorySort,Sign
+1,Kitchenware Revenue,Revenue,Revenue,1,1
+2,Home Textiles Revenue,Revenue,Revenue,1,1
+3,Home Decor & Lighting Revenue,Revenue,Revenue,1,1
+4,Materials,COGS,Cost of Goods Sold,2,-1
+5,Direct Labor,COGS,Cost of Goods Sold,2,-1
+6,Freight & Fulfillment,COGS,Cost of Goods Sold,2,-1
+7,Salaries & Benefits,Opex,Operating Expenses,3,-1
+8,Marketing & Advertising,Opex,Operating Expenses,3,-1
+9,Rent & Utilities,Opex,Operating Expenses,3,-1
+10,Software & IT,Opex,Operating Expenses,3,-1
+11,Professional Fees,Opex,Operating Expenses,3,-1
+12,Travel & Entertainment,Opex,Operating Expenses,3,-1
+13,Insurance,Opex,Operating Expenses,3,-1
+14,Other G&A,Opex,Operating Expenses,3,-1

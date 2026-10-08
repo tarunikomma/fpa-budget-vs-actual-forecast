@@ -1,0 +1,4 @@
+Scenario,ScenarioSort,Description
+Budget,1,Approved FY2026 annual budget
+Actual,2,Booked actuals for closed months
+Forecast,3,9+3 rolling forecast: actuals for closed months plus forecast for open months

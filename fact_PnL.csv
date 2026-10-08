@@ -1,0 +1,463 @@
+Date,Scenario,AccountKey,Product,Amount
+2026-01-01,Budget,1,Kitchenware,561600
+2026-01-01,Budget,2,Home Textiles,507000
+2026-01-01,Budget,3,Home Decor & Lighting,429000
+2026-01-01,Budget,4,Unallocated,546000
+2026-01-01,Budget,5,Unallocated,171600
+2026-01-01,Budget,6,Unallocated,67392
+2026-01-01,Budget,7,Unallocated,285000
+2026-01-01,Budget,8,Unallocated,134784
+2026-01-01,Budget,9,Unallocated,62000
+2026-01-01,Budget,10,Unallocated,38000
+2026-01-01,Budget,11,Unallocated,22000
+2026-01-01,Budget,12,Unallocated,15000
+2026-01-01,Budget,13,Unallocated,12000
+2026-01-01,Budget,14,Unallocated,18000
+2026-02-01,Budget,1,Kitchenware,561600
+2026-02-01,Budget,2,Home Textiles,507000
+2026-02-01,Budget,3,Home Decor & Lighting,429000
+2026-02-01,Budget,4,Unallocated,546000
+2026-02-01,Budget,5,Unallocated,171600
+2026-02-01,Budget,6,Unallocated,67392
+2026-02-01,Budget,7,Unallocated,285000
+2026-02-01,Budget,8,Unallocated,134784
+2026-02-01,Budget,9,Unallocated,62000
+2026-02-01,Budget,10,Unallocated,38000
+2026-02-01,Budget,11,Unallocated,22000
+2026-02-01,Budget,12,Unallocated,15000
+2026-02-01,Budget,13,Unallocated,12000
+2026-02-01,Budget,14,Unallocated,18000
+2026-03-01,Budget,1,Kitchenware,648000
+2026-03-01,Budget,2,Home Textiles,585000
+2026-03-01,Budget,3,Home Decor & Lighting,495000
+2026-03-01,Budget,4,Unallocated,630000
+2026-03-01,Budget,5,Unallocated,198000
+2026-03-01,Budget,6,Unallocated,77760
+2026-03-01,Budget,7,Unallocated,285000
+2026-03-01,Budget,8,Unallocated,155520
+2026-03-01,Budget,9,Unallocated,62000
+2026-03-01,Budget,10,Unallocated,38000
+2026-03-01,Budget,11,Unallocated,22000
+2026-03-01,Budget,12,Unallocated,15000
+2026-03-01,Budget,13,Unallocated,12000
+2026-03-01,Budget,14,Unallocated,18000
+2026-04-01,Budget,1,Kitchenware,648000
+2026-04-01,Budget,2,Home Textiles,585000
+2026-04-01,Budget,3,Home Decor & Lighting,495000
+2026-04-01,Budget,4,Unallocated,630000
+2026-04-01,Budget,5,Unallocated,198000
+2026-04-01,Budget,6,Unallocated,77760
+2026-04-01,Budget,7,Unallocated,293550
+2026-04-01,Budget,8,Unallocated,155520
+2026-04-01,Budget,9,Unallocated,62000
+2026-04-01,Budget,10,Unallocated,38000
+2026-04-01,Budget,11,Unallocated,57000
+2026-04-01,Budget,12,Unallocated,15000
+2026-04-01,Budget,13,Unallocated,12000
+2026-04-01,Budget,14,Unallocated,18000
+2026-05-01,Budget,1,Kitchenware,691200
+2026-05-01,Budget,2,Home Textiles,624000
+2026-05-01,Budget,3,Home Decor & Lighting,528000
+2026-05-01,Budget,4,Unallocated,672000
+2026-05-01,Budget,5,Unallocated,211200
+2026-05-01,Budget,6,Unallocated,82944
+2026-05-01,Budget,7,Unallocated,293550
+2026-05-01,Budget,8,Unallocated,165888
+2026-05-01,Budget,9,Unallocated,62000
+2026-05-01,Budget,10,Unallocated,38000
+2026-05-01,Budget,11,Unallocated,22000
+2026-05-01,Budget,12,Unallocated,15000
+2026-05-01,Budget,13,Unallocated,12000
+2026-05-01,Budget,14,Unallocated,18000
+2026-06-01,Budget,1,Kitchenware,648000
+2026-06-01,Budget,2,Home Textiles,585000
+2026-06-01,Budget,3,Home Decor & Lighting,495000
+2026-06-01,Budget,4,Unallocated,630000
+2026-06-01,Budget,5,Unallocated,198000
+2026-06-01,Budget,6,Unallocated,77760
+2026-06-01,Budget,7,Unallocated,293550
+2026-06-01,Budget,8,Unallocated,155520
+2026-06-01,Budget,9,Unallocated,62000
+2026-06-01,Budget,10,Unallocated,38000
+2026-06-01,Budget,11,Unallocated,22000
+2026-06-01,Budget,12,Unallocated,15000
+2026-06-01,Budget,13,Unallocated,12000
+2026-06-01,Budget,14,Unallocated,18000
+2026-07-01,Budget,1,Kitchenware,604800
+2026-07-01,Budget,2,Home Textiles,546000
+2026-07-01,Budget,3,Home Decor & Lighting,462000
+2026-07-01,Budget,4,Unallocated,588000
+2026-07-01,Budget,5,Unallocated,184800
+2026-07-01,Budget,6,Unallocated,72576
+2026-07-01,Budget,7,Unallocated,293550
+2026-07-01,Budget,8,Unallocated,145152
+2026-07-01,Budget,9,Unallocated,62000
+2026-07-01,Budget,10,Unallocated,38000
+2026-07-01,Budget,11,Unallocated,22000
+2026-07-01,Budget,12,Unallocated,15000
+2026-07-01,Budget,13,Unallocated,12000
+2026-07-01,Budget,14,Unallocated,18000
+2026-08-01,Budget,1,Kitchenware,648000
+2026-08-01,Budget,2,Home Textiles,585000
+2026-08-01,Budget,3,Home Decor & Lighting,495000
+2026-08-01,Budget,4,Unallocated,630000
+2026-08-01,Budget,5,Unallocated,198000
+2026-08-01,Budget,6,Unallocated,77760
+2026-08-01,Budget,7,Unallocated,293550
+2026-08-01,Budget,8,Unallocated,155520
+2026-08-01,Budget,9,Unallocated,62000
+2026-08-01,Budget,10,Unallocated,38000
+2026-08-01,Budget,11,Unallocated,22000
+2026-08-01,Budget,12,Unallocated,15000
+2026-08-01,Budget,13,Unallocated,12000
+2026-08-01,Budget,14,Unallocated,18000
+2026-09-01,Budget,1,Kitchenware,734400
+2026-09-01,Budget,2,Home Textiles,663000
+2026-09-01,Budget,3,Home Decor & Lighting,561000
+2026-09-01,Budget,4,Unallocated,714000
+2026-09-01,Budget,5,Unallocated,224400
+2026-09-01,Budget,6,Unallocated,88128
+2026-09-01,Budget,7,Unallocated,293550
+2026-09-01,Budget,8,Unallocated,176256
+2026-09-01,Budget,9,Unallocated,62000
+2026-09-01,Budget,10,Unallocated,38000
+2026-09-01,Budget,11,Unallocated,22000
+2026-09-01,Budget,12,Unallocated,15000
+2026-09-01,Budget,13,Unallocated,12000
+2026-09-01,Budget,14,Unallocated,18000
+2026-10-01,Budget,1,Kitchenware,820800
+2026-10-01,Budget,2,Home Textiles,741000
+2026-10-01,Budget,3,Home Decor & Lighting,627000
+2026-10-01,Budget,4,Unallocated,798000
+2026-10-01,Budget,5,Unallocated,250800
+2026-10-01,Budget,6,Unallocated,98496
+2026-10-01,Budget,7,Unallocated,293550
+2026-10-01,Budget,8,Unallocated,196992
+2026-10-01,Budget,9,Unallocated,62000
+2026-10-01,Budget,10,Unallocated,38000
+2026-10-01,Budget,11,Unallocated,22000
+2026-10-01,Budget,12,Unallocated,15000
+2026-10-01,Budget,13,Unallocated,12000
+2026-10-01,Budget,14,Unallocated,18000
+2026-11-01,Budget,1,Kitchenware,1080000
+2026-11-01,Budget,2,Home Textiles,975000
+2026-11-01,Budget,3,Home Decor & Lighting,825000
+2026-11-01,Budget,4,Unallocated,1050000
+2026-11-01,Budget,5,Unallocated,330000
+2026-11-01,Budget,6,Unallocated,129600
+2026-11-01,Budget,7,Unallocated,293550
+2026-11-01,Budget,8,Unallocated,259200
+2026-11-01,Budget,9,Unallocated,62000
+2026-11-01,Budget,10,Unallocated,38000
+2026-11-01,Budget,11,Unallocated,22000
+2026-11-01,Budget,12,Unallocated,15000
+2026-11-01,Budget,13,Unallocated,12000
+2026-11-01,Budget,14,Unallocated,18000
+2026-12-01,Budget,1,Kitchenware,993600
+2026-12-01,Budget,2,Home Textiles,897000
+2026-12-01,Budget,3,Home Decor & Lighting,759000
+2026-12-01,Budget,4,Unallocated,966000
+2026-12-01,Budget,5,Unallocated,303600
+2026-12-01,Budget,6,Unallocated,119232
+2026-12-01,Budget,7,Unallocated,293550
+2026-12-01,Budget,8,Unallocated,238464
+2026-12-01,Budget,9,Unallocated,62000
+2026-12-01,Budget,10,Unallocated,38000
+2026-12-01,Budget,11,Unallocated,22000
+2026-12-01,Budget,12,Unallocated,15000
+2026-12-01,Budget,13,Unallocated,12000
+2026-12-01,Budget,14,Unallocated,18000
+2026-01-01,Actual,1,Kitchenware,567216
+2026-01-01,Actual,2,Home Textiles,507000
+2026-01-01,Actual,3,Home Decor & Lighting,424710
+2026-01-01,Actual,4,Unallocated,545964
+2026-01-01,Actual,5,Unallocated,171678
+2026-01-01,Actual,6,Unallocated,67452
+2026-01-01,Actual,7,Unallocated,284100
+2026-01-01,Actual,8,Unallocated,134800
+2026-01-01,Actual,9,Unallocated,62000
+2026-01-01,Actual,10,Unallocated,37600
+2026-01-01,Actual,11,Unallocated,21500
+2026-01-01,Actual,12,Unallocated,11200
+2026-01-01,Actual,13,Unallocated,12000
+2026-01-01,Actual,14,Unallocated,17400
+2026-02-01,Actual,1,Kitchenware,555984
+2026-02-01,Actual,2,Home Textiles,496860
+2026-02-01,Actual,3,Home Decor & Lighting,437580
+2026-02-01,Actual,4,Unallocated,543127
+2026-02-01,Actual,5,Unallocated,170781
+2026-02-01,Actual,6,Unallocated,68560
+2026-02-01,Actual,7,Unallocated,272300
+2026-02-01,Actual,8,Unallocated,132100
+2026-02-01,Actual,9,Unallocated,62000
+2026-02-01,Actual,10,Unallocated,38200
+2026-02-01,Actual,11,Unallocated,23100
+2026-02-01,Actual,12,Unallocated,12500
+2026-02-01,Actual,13,Unallocated,12000
+2026-02-01,Actual,14,Unallocated,18900
+2026-03-01,Actual,1,Kitchenware,653702
+2026-03-01,Actual,2,Home Textiles,579150
+2026-03-01,Actual,3,Home Decor & Lighting,509850
+2026-03-01,Actual,4,Unallocated,642069
+2026-03-01,Actual,5,Unallocated,201735
+2026-03-01,Actual,6,Unallocated,81907
+2026-03-01,Actual,7,Unallocated,270450
+2026-03-01,Actual,8,Unallocated,199100
+2026-03-01,Actual,9,Unallocated,62000
+2026-03-01,Actual,10,Unallocated,38400
+2026-03-01,Actual,11,Unallocated,22400
+2026-03-01,Actual,12,Unallocated,16800
+2026-03-01,Actual,13,Unallocated,12000
+2026-03-01,Actual,14,Unallocated,19600
+2026-04-01,Actual,1,Kitchenware,678845
+2026-04-01,Actual,2,Home Textiles,573124
+2026-04-01,Actual,3,Home Decor & Lighting,519948
+2026-04-01,Actual,4,Unallocated,653586
+2026-04-01,Actual,5,Unallocated,201825
+2026-04-01,Actual,6,Unallocated,85052
+2026-04-01,Actual,7,Unallocated,279200
+2026-04-01,Actual,8,Unallocated,164900
+2026-04-01,Actual,9,Unallocated,62000
+2026-04-01,Actual,10,Unallocated,38900
+2026-04-01,Actual,11,Unallocated,61000
+2026-04-01,Actual,12,Unallocated,11000
+2026-04-01,Actual,13,Unallocated,12000
+2026-04-01,Actual,14,Unallocated,16800
+2026-05-01,Actual,1,Kitchenware,738340
+2026-05-01,Actual,2,Home Textiles,536640
+2026-05-01,Actual,3,Home Decor & Lighting,565594
+2026-05-01,Actual,4,Unallocated,680909
+2026-05-01,Actual,5,Unallocated,210888
+2026-05-01,Actual,6,Unallocated,95710
+2026-05-01,Actual,7,Unallocated,280150
+2026-05-01,Actual,8,Unallocated,170900
+2026-05-01,Actual,9,Unallocated,62000
+2026-05-01,Actual,10,Unallocated,44500
+2026-05-01,Actual,11,Unallocated,24000
+2026-05-01,Actual,12,Unallocated,12100
+2026-05-01,Actual,13,Unallocated,12000
+2026-05-01,Actual,14,Unallocated,18200
+2026-06-01,Actual,1,Kitchenware,679493
+2026-06-01,Actual,2,Home Textiles,472680
+2026-06-01,Actual,3,Home Decor & Lighting,537966
+2026-06-01,Actual,4,Unallocated,621804
+2026-06-01,Actual,5,Unallocated,196385
+2026-06-01,Actual,6,Unallocated,103098
+2026-06-01,Actual,7,Unallocated,283400
+2026-06-01,Actual,8,Unallocated,158600
+2026-06-01,Actual,9,Unallocated,62000
+2026-06-01,Actual,10,Unallocated,44500
+2026-06-01,Actual,11,Unallocated,48500
+2026-06-01,Actual,12,Unallocated,10400
+2026-06-01,Actual,13,Unallocated,12000
+2026-06-01,Actual,14,Unallocated,20100
+2026-07-01,Actual,1,Kitchenware,640120
+2026-07-01,Actual,2,Home Textiles,491400
+2026-07-01,Actual,3,Home Decor & Lighting,494894
+2026-07-01,Actual,4,Unallocated,602303
+2026-07-01,Actual,5,Unallocated,195843
+2026-07-01,Actual,6,Unallocated,95958
+2026-07-01,Actual,7,Unallocated,293100
+2026-07-01,Actual,8,Unallocated,151000
+2026-07-01,Actual,9,Unallocated,64100
+2026-07-01,Actual,10,Unallocated,44650
+2026-07-01,Actual,11,Unallocated,31000
+2026-07-01,Actual,12,Unallocated,9800
+2026-07-01,Actual,13,Unallocated,12960
+2026-07-01,Actual,14,Unallocated,17700
+2026-08-01,Actual,1,Kitchenware,691416
+2026-08-01,Actual,2,Home Textiles,555750
+2026-08-01,Actual,3,Home Decor & Lighting,540540
+2026-08-01,Actual,4,Unallocated,665152
+2026-08-01,Actual,5,Unallocated,218360
+2026-08-01,Actual,6,Unallocated,94748
+2026-08-01,Actual,7,Unallocated,294480
+2026-08-01,Actual,8,Unallocated,183500
+2026-08-01,Actual,9,Unallocated,64100
+2026-08-01,Actual,10,Unallocated,44500
+2026-08-01,Actual,11,Unallocated,22800
+2026-08-01,Actual,12,Unallocated,13000
+2026-08-01,Actual,13,Unallocated,12960
+2026-08-01,Actual,14,Unallocated,18400
+2026-09-01,Actual,1,Kitchenware,784486
+2026-09-01,Actual,2,Home Textiles,639894
+2026-09-01,Actual,3,Home Decor & Lighting,606778
+2026-09-01,Actual,4,Unallocated,754390
+2026-09-01,Actual,5,Unallocated,236119
+2026-09-01,Actual,6,Unallocated,103589
+2026-09-01,Actual,7,Unallocated,295020
+2026-09-01,Actual,8,Unallocated,186800
+2026-09-01,Actual,9,Unallocated,64100
+2026-09-01,Actual,10,Unallocated,44720
+2026-09-01,Actual,11,Unallocated,23500
+2026-09-01,Actual,12,Unallocated,12600
+2026-09-01,Actual,13,Unallocated,12960
+2026-09-01,Actual,14,Unallocated,19000
+2026-01-01,Forecast,1,Kitchenware,567216
+2026-01-01,Forecast,2,Home Textiles,507000
+2026-01-01,Forecast,3,Home Decor & Lighting,424710
+2026-01-01,Forecast,4,Unallocated,545964
+2026-01-01,Forecast,5,Unallocated,171678
+2026-01-01,Forecast,6,Unallocated,67452
+2026-01-01,Forecast,7,Unallocated,284100
+2026-01-01,Forecast,8,Unallocated,134800
+2026-01-01,Forecast,9,Unallocated,62000
+2026-01-01,Forecast,10,Unallocated,37600
+2026-01-01,Forecast,11,Unallocated,21500
+2026-01-01,Forecast,12,Unallocated,11200
+2026-01-01,Forecast,13,Unallocated,12000
+2026-01-01,Forecast,14,Unallocated,17400
+2026-02-01,Forecast,1,Kitchenware,555984
+2026-02-01,Forecast,2,Home Textiles,496860
+2026-02-01,Forecast,3,Home Decor & Lighting,437580
+2026-02-01,Forecast,4,Unallocated,543127
+2026-02-01,Forecast,5,Unallocated,170781
+2026-02-01,Forecast,6,Unallocated,68560
+2026-02-01,Forecast,7,Unallocated,272300
+2026-02-01,Forecast,8,Unallocated,132100
+2026-02-01,Forecast,9,Unallocated,62000
+2026-02-01,Forecast,10,Unallocated,38200
+2026-02-01,Forecast,11,Unallocated,23100
+2026-02-01,Forecast,12,Unallocated,12500
+2026-02-01,Forecast,13,Unallocated,12000
+2026-02-01,Forecast,14,Unallocated,18900
+2026-03-01,Forecast,1,Kitchenware,653702
+2026-03-01,Forecast,2,Home Textiles,579150
+2026-03-01,Forecast,3,Home Decor & Lighting,509850
+2026-03-01,Forecast,4,Unallocated,642069
+2026-03-01,Forecast,5,Unallocated,201735
+2026-03-01,Forecast,6,Unallocated,81907
+2026-03-01,Forecast,7,Unallocated,270450
+2026-03-01,Forecast,8,Unallocated,199100
+2026-03-01,Forecast,9,Unallocated,62000
+2026-03-01,Forecast,10,Unallocated,38400
+2026-03-01,Forecast,11,Unallocated,22400
+2026-03-01,Forecast,12,Unallocated,16800
+2026-03-01,Forecast,13,Unallocated,12000
+2026-03-01,Forecast,14,Unallocated,19600
+2026-04-01,Forecast,1,Kitchenware,678845
+2026-04-01,Forecast,2,Home Textiles,573124
+2026-04-01,Forecast,3,Home Decor & Lighting,519948
+2026-04-01,Forecast,4,Unallocated,653586
+2026-04-01,Forecast,5,Unallocated,201825
+2026-04-01,Forecast,6,Unallocated,85052
+2026-04-01,Forecast,7,Unallocated,279200
+2026-04-01,Forecast,8,Unallocated,164900
+2026-04-01,Forecast,9,Unallocated,62000
+2026-04-01,Forecast,10,Unallocated,38900
+2026-04-01,Forecast,11,Unallocated,61000
+2026-04-01,Forecast,12,Unallocated,11000
+2026-04-01,Forecast,13,Unallocated,12000
+2026-04-01,Forecast,14,Unallocated,16800
+2026-05-01,Forecast,1,Kitchenware,738340
+2026-05-01,Forecast,2,Home Textiles,536640
+2026-05-01,Forecast,3,Home Decor & Lighting,565594
+2026-05-01,Forecast,4,Unallocated,680909
+2026-05-01,Forecast,5,Unallocated,210888
+2026-05-01,Forecast,6,Unallocated,95710
+2026-05-01,Forecast,7,Unallocated,280150
+2026-05-01,Forecast,8,Unallocated,170900
+2026-05-01,Forecast,9,Unallocated,62000
+2026-05-01,Forecast,10,Unallocated,44500
+2026-05-01,Forecast,11,Unallocated,24000
+2026-05-01,Forecast,12,Unallocated,12100
+2026-05-01,Forecast,13,Unallocated,12000
+2026-05-01,Forecast,14,Unallocated,18200
+2026-06-01,Forecast,1,Kitchenware,679493
+2026-06-01,Forecast,2,Home Textiles,472680
+2026-06-01,Forecast,3,Home Decor & Lighting,537966
+2026-06-01,Forecast,4,Unallocated,621804
+2026-06-01,Forecast,5,Unallocated,196385
+2026-06-01,Forecast,6,Unallocated,103098
+2026-06-01,Forecast,7,Unallocated,283400
+2026-06-01,Forecast,8,Unallocated,158600
+2026-06-01,Forecast,9,Unallocated,62000
+2026-06-01,Forecast,10,Unallocated,44500
+2026-06-01,Forecast,11,Unallocated,48500
+2026-06-01,Forecast,12,Unallocated,10400
+2026-06-01,Forecast,13,Unallocated,12000
+2026-06-01,Forecast,14,Unallocated,20100
+2026-07-01,Forecast,1,Kitchenware,640120
+2026-07-01,Forecast,2,Home Textiles,491400
+2026-07-01,Forecast,3,Home Decor & Lighting,494894
+2026-07-01,Forecast,4,Unallocated,602303
+2026-07-01,Forecast,5,Unallocated,195843
+2026-07-01,Forecast,6,Unallocated,95958
+2026-07-01,Forecast,7,Unallocated,293100
+2026-07-01,Forecast,8,Unallocated,151000
+2026-07-01,Forecast,9,Unallocated,64100
+2026-07-01,Forecast,10,Unallocated,44650
+2026-07-01,Forecast,11,Unallocated,31000
+2026-07-01,Forecast,12,Unallocated,9800
+2026-07-01,Forecast,13,Unallocated,12960
+2026-07-01,Forecast,14,Unallocated,17700
+2026-08-01,Forecast,1,Kitchenware,691416
+2026-08-01,Forecast,2,Home Textiles,555750
+2026-08-01,Forecast,3,Home Decor & Lighting,540540
+2026-08-01,Forecast,4,Unallocated,665152
+2026-08-01,Forecast,5,Unallocated,218360
+2026-08-01,Forecast,6,Unallocated,94748
+2026-08-01,Forecast,7,Unallocated,294480
+2026-08-01,Forecast,8,Unallocated,183500
+2026-08-01,Forecast,9,Unallocated,64100
+2026-08-01,Forecast,10,Unallocated,44500
+2026-08-01,Forecast,11,Unallocated,22800
+2026-08-01,Forecast,12,Unallocated,13000
+2026-08-01,Forecast,13,Unallocated,12960
+2026-08-01,Forecast,14,Unallocated,18400
+2026-09-01,Forecast,1,Kitchenware,784486
+2026-09-01,Forecast,2,Home Textiles,639894
+2026-09-01,Forecast,3,Home Decor & Lighting,606778
+2026-09-01,Forecast,4,Unallocated,754390
+2026-09-01,Forecast,5,Unallocated,236119
+2026-09-01,Forecast,6,Unallocated,103589
+2026-09-01,Forecast,7,Unallocated,295020
+2026-09-01,Forecast,8,Unallocated,186800
+2026-09-01,Forecast,9,Unallocated,64100
+2026-09-01,Forecast,10,Unallocated,44720
+2026-09-01,Forecast,11,Unallocated,23500
+2026-09-01,Forecast,12,Unallocated,12600
+2026-09-01,Forecast,13,Unallocated,12960
+2026-09-01,Forecast,14,Unallocated,19000
+2026-10-01,Forecast,1,Kitchenware,867996
+2026-10-01,Forecast,2,Home Textiles,711360
+2026-10-01,Forecast,3,Home Decor & Lighting,678163.2
+2026-10-01,Forecast,4,Unallocated,837336.84
+2026-10-01,Forecast,5,Unallocated,262095.12
+2026-10-01,Forecast,6,Unallocated,112875.96
+2026-10-01,Forecast,7,Unallocated,298000
+2026-10-01,Forecast,8,Unallocated,207691.77
+2026-10-01,Forecast,9,Unallocated,64100
+2026-10-01,Forecast,10,Unallocated,44700
+2026-10-01,Forecast,11,Unallocated,24000
+2026-10-01,Forecast,12,Unallocated,13000
+2026-10-01,Forecast,13,Unallocated,12960
+2026-10-01,Forecast,14,Unallocated,18500
+2026-11-01,Forecast,1,Kitchenware,1142100
+2026-11-01,Forecast,2,Home Textiles,936000
+2026-11-01,Forecast,3,Home Decor & Lighting,892320
+2026-11-01,Forecast,4,Unallocated,1101759
+2026-11-01,Forecast,5,Unallocated,344862
+2026-11-01,Forecast,6,Unallocated,148521
+2026-11-01,Forecast,7,Unallocated,298000
+2026-11-01,Forecast,8,Unallocated,273278.64
+2026-11-01,Forecast,9,Unallocated,64100
+2026-11-01,Forecast,10,Unallocated,44700
+2026-11-01,Forecast,11,Unallocated,24000
+2026-11-01,Forecast,12,Unallocated,13000
+2026-11-01,Forecast,13,Unallocated,12960
+2026-11-01,Forecast,14,Unallocated,18500
+2026-12-01,Forecast,1,Kitchenware,1050732
+2026-12-01,Forecast,2,Home Textiles,861120
+2026-12-01,Forecast,3,Home Decor & Lighting,820934.4
+2026-12-01,Forecast,4,Unallocated,1013618.28
+2026-12-01,Forecast,5,Unallocated,317273.04
+2026-12-01,Forecast,6,Unallocated,136639.32
+2026-12-01,Forecast,7,Unallocated,298000
+2026-12-01,Forecast,8,Unallocated,251416.35
+2026-12-01,Forecast,9,Unallocated,64100
+2026-12-01,Forecast,10,Unallocated,44700
+2026-12-01,Forecast,11,Unallocated,24000
+2026-12-01,Forecast,12,Unallocated,13000
+2026-12-01,Forecast,13,Unallocated,12960
+2026-12-01,Forecast,14,Unallocated,18500

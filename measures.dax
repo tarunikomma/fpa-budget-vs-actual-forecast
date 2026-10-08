@@ -1,0 +1,103 @@
+// Larkspur Home Goods FP&A model: all measures
+// How to use: Power BI Desktop > DAX query view > paste this whole file > click
+// "Update model with changes" (or the "Update model: Add new measure" link above each measure).
+// Requires an empty table named _Measures (Home > Enter data > name it _Measures > Load).
+
+DEFINE
+    // ---------- Base ----------
+    MEASURE '_Measures'[Amount] = SUM ( fact_PnL[Amount] )
+    MEASURE '_Measures'[Revenue] = CALCULATE ( [Amount], dim_Account[Category] = "Revenue" )
+    MEASURE '_Measures'[COGS] = CALCULATE ( [Amount], dim_Account[Category] = "COGS" )
+    MEASURE '_Measures'[Opex] = CALCULATE ( [Amount], dim_Account[Category] = "Opex" )
+    MEASURE '_Measures'[Gross Profit] = [Revenue] - [COGS]
+    MEASURE '_Measures'[EBITDA] = [Gross Profit] - [Opex]
+    MEASURE '_Measures'[Gross Margin %] = DIVIDE ( [Gross Profit], [Revenue] )
+    MEASURE '_Measures'[EBITDA Margin %] = DIVIDE ( [EBITDA], [Revenue] )
+    MEASURE '_Measures'[Units] = SUM ( fact_Units[Units] )
+
+    // ---------- Scenario views (use these in the P&L matrix) ----------
+    // Budget is limited to closed months so it is comparable with Actual.
+    MEASURE '_Measures'[Actual] = CALCULATE ( [Amount], dim_Scenario[Scenario] = "Actual" )
+    MEASURE '_Measures'[Budget] =
+        CALCULATE ( [Amount], dim_Scenario[Scenario] = "Budget", KEEPFILTERS ( dim_Date[IsClosed] = 1 ) )
+    MEASURE '_Measures'[Budget FY] = CALCULATE ( [Amount], dim_Scenario[Scenario] = "Budget" )
+    MEASURE '_Measures'[Forecast FY] = CALCULATE ( [Amount], dim_Scenario[Scenario] = "Forecast" )
+
+    // ---------- Variance: favorable = positive on every line ----------
+    // dim_Account[Sign] is +1 for revenue and -1 for costs, so the total equals the EBITDA variance.
+    MEASURE '_Measures'[Variance $] =
+        SUMX (
+            VALUES ( dim_Account[AccountKey] ),
+            CALCULATE ( ( [Actual] - [Budget] ) * MAX ( dim_Account[Sign] ) )
+        )
+    MEASURE '_Measures'[Variance %] =
+        IF ( HASONEVALUE ( dim_Account[Category] ), DIVIDE ( [Variance $], [Budget] ) )
+    MEASURE '_Measures'[Variance Status] =
+        SWITCH (
+            TRUE (),
+            ISBLANK ( [Variance $] ), BLANK (),
+            [Variance $] > 0, "Fav",
+            [Variance $] < 0, "Unfav",
+            "On plan"
+        )
+    MEASURE '_Measures'[Variance Color] = IF ( [Variance $] < 0, "#C62828", "#2E7D32" )
+    MEASURE '_Measures'[FY Variance $] =
+        SUMX (
+            VALUES ( dim_Account[AccountKey] ),
+            CALCULATE ( ( [Forecast FY] - [Budget FY] ) * MAX ( dim_Account[Sign] ) )
+        )
+
+    // ---------- KPI cards: year to date ----------
+    MEASURE '_Measures'[Revenue Actual] = CALCULATE ( [Revenue], dim_Scenario[Scenario] = "Actual" )
+    MEASURE '_Measures'[Revenue Budget] =
+        CALCULATE ( [Revenue], dim_Scenario[Scenario] = "Budget", KEEPFILTERS ( dim_Date[IsClosed] = 1 ) )
+    MEASURE '_Measures'[Revenue Var $] = [Revenue Actual] - [Revenue Budget]
+    MEASURE '_Measures'[Revenue Var %] = DIVIDE ( [Revenue Var $], [Revenue Budget] )
+    MEASURE '_Measures'[Gross Margin % Actual] = CALCULATE ( [Gross Margin %], dim_Scenario[Scenario] = "Actual" )
+    MEASURE '_Measures'[Gross Margin % Budget] =
+        CALCULATE ( [Gross Margin %], dim_Scenario[Scenario] = "Budget", KEEPFILTERS ( dim_Date[IsClosed] = 1 ) )
+    MEASURE '_Measures'[Gross Margin Var pts] = [Gross Margin % Actual] - [Gross Margin % Budget]
+    MEASURE '_Measures'[EBITDA Actual] = CALCULATE ( [EBITDA], dim_Scenario[Scenario] = "Actual" )
+    MEASURE '_Measures'[EBITDA Budget] =
+        CALCULATE ( [EBITDA], dim_Scenario[Scenario] = "Budget", KEEPFILTERS ( dim_Date[IsClosed] = 1 ) )
+    MEASURE '_Measures'[EBITDA Var $] = [EBITDA Actual] - [EBITDA Budget]
+    MEASURE '_Measures'[EBITDA Var %] = DIVIDE ( [EBITDA Var $], [EBITDA Budget] )
+    MEASURE '_Measures'[EBITDA Margin % Actual] = CALCULATE ( [EBITDA Margin %], dim_Scenario[Scenario] = "Actual" )
+    MEASURE '_Measures'[EBITDA Margin % Budget] =
+        CALCULATE ( [EBITDA Margin %], dim_Scenario[Scenario] = "Budget", KEEPFILTERS ( dim_Date[IsClosed] = 1 ) )
+
+    // ---------- KPI cards: full-year outlook ----------
+    MEASURE '_Measures'[Revenue Forecast FY] = CALCULATE ( [Revenue], dim_Scenario[Scenario] = "Forecast" )
+    MEASURE '_Measures'[Revenue Budget FY] = CALCULATE ( [Revenue], dim_Scenario[Scenario] = "Budget" )
+    MEASURE '_Measures'[Revenue FY Var %] =
+        DIVIDE ( [Revenue Forecast FY] - [Revenue Budget FY], [Revenue Budget FY] )
+    MEASURE '_Measures'[EBITDA Forecast FY] = CALCULATE ( [EBITDA], dim_Scenario[Scenario] = "Forecast" )
+    MEASURE '_Measures'[EBITDA Budget FY] = CALCULATE ( [EBITDA], dim_Scenario[Scenario] = "Budget" )
+    MEASURE '_Measures'[EBITDA FY Var $] = [EBITDA Forecast FY] - [EBITDA Budget FY]
+    MEASURE '_Measures'[EBITDA FY Var %] = DIVIDE ( [EBITDA FY Var $], [EBITDA Budget FY] )
+
+    // ---------- Price / volume analysis (use with dim_Product) ----------
+    MEASURE '_Measures'[Units Actual] = CALCULATE ( [Units], dim_Scenario[Scenario] = "Actual" )
+    MEASURE '_Measures'[Units Budget] =
+        CALCULATE ( [Units], dim_Scenario[Scenario] = "Budget", KEEPFILTERS ( dim_Date[IsClosed] = 1 ) )
+    MEASURE '_Measures'[Price Actual] = DIVIDE ( [Revenue Actual], [Units Actual] )
+    MEASURE '_Measures'[Price Budget] = DIVIDE ( [Revenue Budget], [Units Budget] )
+    MEASURE '_Measures'[Volume Variance] =
+        SUMX ( VALUES ( dim_Product[Product] ), ( [Units Actual] - [Units Budget] ) * [Price Budget] )
+    MEASURE '_Measures'[Price Variance] =
+        SUMX ( VALUES ( dim_Product[Product] ), ( [Price Actual] - [Price Budget] ) * [Units Actual] )
+
+// Validation query: results should match the table in the build guide
+EVALUATE
+ROW (
+    "Revenue Actual", [Revenue Actual],
+    "Revenue Budget", [Revenue Budget],
+    "EBITDA Actual", [EBITDA Actual],
+    "EBITDA Budget", [EBITDA Budget],
+    "Variance $ (all accounts)", [Variance $],
+    "Volume Variance", [Volume Variance],
+    "Price Variance", [Price Variance],
+    "Revenue Forecast FY", [Revenue Forecast FY],
+    "EBITDA Forecast FY", [EBITDA Forecast FY],
+    "EBITDA Budget FY", [EBITDA Budget FY]
+)

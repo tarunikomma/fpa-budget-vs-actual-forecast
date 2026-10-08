@@ -1,0 +1,100 @@
+Date,Scenario,Product,Units
+2026-01-01,Budget,Kitchenware,11700
+2026-01-01,Budget,Home Textiles,7800
+2026-01-01,Budget,Home Decor & Lighting,3900
+2026-02-01,Budget,Kitchenware,11700
+2026-02-01,Budget,Home Textiles,7800
+2026-02-01,Budget,Home Decor & Lighting,3900
+2026-03-01,Budget,Kitchenware,13500
+2026-03-01,Budget,Home Textiles,9000
+2026-03-01,Budget,Home Decor & Lighting,4500
+2026-04-01,Budget,Kitchenware,13500
+2026-04-01,Budget,Home Textiles,9000
+2026-04-01,Budget,Home Decor & Lighting,4500
+2026-05-01,Budget,Kitchenware,14400
+2026-05-01,Budget,Home Textiles,9600
+2026-05-01,Budget,Home Decor & Lighting,4800
+2026-06-01,Budget,Kitchenware,13500
+2026-06-01,Budget,Home Textiles,9000
+2026-06-01,Budget,Home Decor & Lighting,4500
+2026-07-01,Budget,Kitchenware,12600
+2026-07-01,Budget,Home Textiles,8400
+2026-07-01,Budget,Home Decor & Lighting,4200
+2026-08-01,Budget,Kitchenware,13500
+2026-08-01,Budget,Home Textiles,9000
+2026-08-01,Budget,Home Decor & Lighting,4500
+2026-09-01,Budget,Kitchenware,15300
+2026-09-01,Budget,Home Textiles,10200
+2026-09-01,Budget,Home Decor & Lighting,5100
+2026-10-01,Budget,Kitchenware,17100
+2026-10-01,Budget,Home Textiles,11400
+2026-10-01,Budget,Home Decor & Lighting,5700
+2026-11-01,Budget,Kitchenware,22500
+2026-11-01,Budget,Home Textiles,15000
+2026-11-01,Budget,Home Decor & Lighting,7500
+2026-12-01,Budget,Kitchenware,20700
+2026-12-01,Budget,Home Textiles,13800
+2026-12-01,Budget,Home Decor & Lighting,6900
+2026-01-01,Actual,Kitchenware,11817
+2026-01-01,Actual,Home Textiles,7800
+2026-01-01,Actual,Home Decor & Lighting,3861
+2026-02-01,Actual,Kitchenware,11583
+2026-02-01,Actual,Home Textiles,7644
+2026-02-01,Actual,Home Decor & Lighting,3978
+2026-03-01,Actual,Kitchenware,14040
+2026-03-01,Actual,Home Textiles,8910
+2026-03-01,Actual,Home Decor & Lighting,4635
+2026-04-01,Actual,Kitchenware,14580
+2026-04-01,Actual,Home Textiles,8730
+2026-04-01,Actual,Home Decor & Lighting,4545
+2026-05-01,Actual,Kitchenware,15696
+2026-05-01,Actual,Home Textiles,8256
+2026-05-01,Actual,Home Decor & Lighting,4944
+2026-06-01,Actual,Kitchenware,14445
+2026-06-01,Actual,Home Textiles,7200
+2026-06-01,Actual,Home Decor & Lighting,4680
+2026-07-01,Actual,Kitchenware,13608
+2026-07-01,Actual,Home Textiles,7560
+2026-07-01,Actual,Home Decor & Lighting,4326
+2026-08-01,Actual,Kitchenware,14850
+2026-08-01,Actual,Home Textiles,8550
+2026-08-01,Actual,Home Decor & Lighting,4725
+2026-09-01,Actual,Kitchenware,16677
+2026-09-01,Actual,Home Textiles,9894
+2026-09-01,Actual,Home Decor & Lighting,5304
+2026-01-01,Forecast,Kitchenware,11817
+2026-01-01,Forecast,Home Textiles,7800
+2026-01-01,Forecast,Home Decor & Lighting,3861
+2026-02-01,Forecast,Kitchenware,11583
+2026-02-01,Forecast,Home Textiles,7644
+2026-02-01,Forecast,Home Decor & Lighting,3978
+2026-03-01,Forecast,Kitchenware,14040
+2026-03-01,Forecast,Home Textiles,8910
+2026-03-01,Forecast,Home Decor & Lighting,4635
+2026-04-01,Forecast,Kitchenware,14580
+2026-04-01,Forecast,Home Textiles,8730
+2026-04-01,Forecast,Home Decor & Lighting,4545
+2026-05-01,Forecast,Kitchenware,15696
+2026-05-01,Forecast,Home Textiles,8256
+2026-05-01,Forecast,Home Decor & Lighting,4944
+2026-06-01,Forecast,Kitchenware,14445
+2026-06-01,Forecast,Home Textiles,7200
+2026-06-01,Forecast,Home Decor & Lighting,4680
+2026-07-01,Forecast,Kitchenware,13608
+2026-07-01,Forecast,Home Textiles,7560
+2026-07-01,Forecast,Home Decor & Lighting,4326
+2026-08-01,Forecast,Kitchenware,14850
+2026-08-01,Forecast,Home Textiles,8550
+2026-08-01,Forecast,Home Decor & Lighting,4725
+2026-09-01,Forecast,Kitchenware,16677
+2026-09-01,Forecast,Home Textiles,9894
+2026-09-01,Forecast,Home Decor & Lighting,5304
+2026-10-01,Forecast,Kitchenware,18468
+2026-10-01,Forecast,Home Textiles,10944
+2026-10-01,Forecast,Home Decor & Lighting,5928
+2026-11-01,Forecast,Kitchenware,24300
+2026-11-01,Forecast,Home Textiles,14400
+2026-11-01,Forecast,Home Decor & Lighting,7800
+2026-12-01,Forecast,Kitchenware,22356
+2026-12-01,Forecast,Home Textiles,13248
+2026-12-01,Forecast,Home Decor & Lighting,7176
